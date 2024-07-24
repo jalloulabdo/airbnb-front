@@ -52,7 +52,7 @@ export default function PlacePage() {
               <div className="min-w-full">
                 <img
                   className="min-w-full object-cover"
-                  src={"http://localhost:4000/uploads/" + photo}
+                  src={"https://airbnb-api-xpe7.onrender.com/uploads/" + photo}
                   alt=""
                 />
               </div>
@@ -100,7 +100,7 @@ export default function PlacePage() {
                 <img
                   onClick={() => setShowAllPhotos(true)}
                   className="aspect-square  cursor-pointer bject-cover"
-                  src={"http://localhost:4000/uploads/" + place.photos?.[0]}
+                  src={"https://airbnb-api-xpe7.onrender.com/uploads/" + place.photos?.[0]}
                   alt=""
                 />
               </div>
@@ -111,7 +111,7 @@ export default function PlacePage() {
               <img
               onClick={() => setShowAllPhotos(true)}
                 className="aspect-square cursor-pointer  object-cover"
-                src={"http://localhost:4000/uploads/" + place.photos?.[1]}
+                src={"https://airbnb-api-xpe7.onrender.com/uploads/" + place.photos?.[1]}
                 alt=""
               />
             )}
@@ -120,7 +120,7 @@ export default function PlacePage() {
                 <img
                   onClick={() => setShowAllPhotos(true)}
                   className="aspect-square o cursor-pointer bject-cover relative top-2"
-                  src={"http://localhost:4000/uploads/" + place.photos?.[2]}
+                  src={"https://airbnb-api-xpe7.onrender.com/uploads/" + place.photos?.[2]}
                   alt=""
                 />
               </div>

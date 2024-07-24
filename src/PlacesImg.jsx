@@ -8,7 +8,7 @@ export default function PlacesImg({place,index=0,className=null}) {
         className = 'object-cover';
     }
     return(
-        <img className={className} src={'http://localhost:4000/uploads/'+place.photos[index]} alt="" />
+        <img className={className} src={'https://airbnb-api-xpe7.onrender.com/uploads/'+place.photos[index]} alt="" />
 
     );
 }
