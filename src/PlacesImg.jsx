@@ -4,6 +4,7 @@ export default function PlacesImg({place,index=0,className=null}) {
         return '';
     }
 
+    
     if(!className){
         className = 'object-cover';
     }
