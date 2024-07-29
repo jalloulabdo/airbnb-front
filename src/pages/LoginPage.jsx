@@ -15,7 +15,6 @@ export default function LoginPage() {
         email,
         password,
       });
-      alert("login Successful");
       setUser(data);
       setRedirect(true);
     } catch (error) {
